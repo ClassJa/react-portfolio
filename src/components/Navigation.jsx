@@ -1,16 +1,18 @@
+
+
 function Navigation() {
 
 return (
 <aside>
     <ul>
         <li className='ul-no-bullet'>
-        <a href="#"> About Me </a>
+        <a className="side-text" href="#"> About Me </a>
         </li>
         <li className='ul-no-bullet'>
-        <a href="#"> Projects </a>
+        <a className="side-text" href="#"> Projects </a>
         </li>
         <li className='ul-no-bullet'>
-        <a href="#"> Contact Me </a>
+        <a className="side-text" href="#"> Contact Me </a>
         </li>
     </ul>
 </aside>

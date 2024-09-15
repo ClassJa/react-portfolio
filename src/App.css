@@ -1,9 +1,30 @@
+
 aside {
   display: flex;
   align-content: space-evenly;
+  /* height: 100%; */
+  background-color: #3C6E71;
+  width: 18%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #3C6E71; */
+
+
+
 }
 
 .ul-no-bullet {
   list-style-type: none;
+  
 }
 
+.side-text {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
