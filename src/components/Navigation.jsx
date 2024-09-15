@@ -1,7 +1,9 @@
+function Navigation() {
+
+return (
 <aside>
     <ul>
         <li className='ul-no-bullet'>
-        About Me
         <a href="#"> About Me </a>
         </li>
         <li className='ul-no-bullet'>
@@ -12,3 +14,7 @@
         </li>
     </ul>
 </aside>
+
+)}
+
+export default Navigation

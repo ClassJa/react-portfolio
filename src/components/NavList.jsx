@@ -22,3 +22,5 @@ const handleChange = (e) => {
     </ul>
     </aside>
 }
+
+export default NavList
