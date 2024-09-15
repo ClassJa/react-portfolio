@@ -1,3 +1,4 @@
+
 import { StrictMode } from 'react';
 import { createRoot }  from 'react-dom/client';
 import ReactDOM from 'react-dom/client';
@@ -16,47 +17,42 @@ import {createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
   {
     path: '/',
+    // element: <HomePage />,
     element: <App />,
+    // index: true,
     errorElement: <ErrorPage />,
     children: [
       {
-        index: true,
+        // index: true,
+        path: '/home',
         element: <HomePage />
       },
       {
-        path: '/AboutPage',
+        path: '/about',
         element: <AboutPage />
       },
       {
-        path: '/ProjectsPage',
+        path: '/projects',
         element: <ProjectsPage />
       },
       {
-        path: '/ContactPage',
+        path: '/contact',
         element: <ContactPage />
       },
       {
-        path: '/ResumePage',
+        path: '/resume',
         element: <ResumePage />
       }
     ]
   }
-  // Todo: Define the accessible routes, and which components respond to which URL
+
 ]);
-//  <Router>
-// </Router>
 
 
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <App />
-//   </StrictMode>,
-//   <RouterProvider router={router} />
-// )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App /> */}
     <RouterProvider router={router} />
 </StrictMode>
 )

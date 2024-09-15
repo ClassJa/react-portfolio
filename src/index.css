@@ -5,14 +5,17 @@
 aside {
   display: flex;
   align-content: space-evenly;
-  background-color: #9bb0bf;
+  background-color: #6E7E85;
+  /* background-color: #9bb0bf; */
   width: 18%;
   position: relative;
   top: auto;
 }
 
 header {
-  background-color: #9bb0bf;
+  background-color: #6E7E85;
+  /* background-color: #9bb0bf; */
+  /* background-color: #F8F0FB; */
   color: aliceblue;
   display: flex;
   justify-content: center;
@@ -43,6 +46,7 @@ ul {
 
 .side-text {
   color: aliceblue;
+  /* color: rgb(201, 251, 216); */
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -56,4 +60,22 @@ ul {
 
 .side-text:active {
   /* color:#353535 */
+}
+
+.aboutDiv {
+  display: flex;
+  position: absolute;
+  height: 200px;
+  width: 800px;
+  top: 200px;
+  left: 500px;
+  /* border: #6E7E85 2px solid; */
+}
+
+#aboutText {
+  color: #807f8a;
+  /* border: #70b4c1 2px solid; */
+  padding: 10px;
+  font-size: 25px;
+
 }
