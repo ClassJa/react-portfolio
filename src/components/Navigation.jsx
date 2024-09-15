@@ -1,3 +1,6 @@
+import About from './About'
+
+
 function Navigation() {
 
 return (
@@ -11,6 +14,9 @@ return (
         </li>
         <li className='ul-no-bullet'>
         <a className="side-text" href="#ContactMe"> Contact Me </a>
+        </li>
+        <li className='ul-no-bullet'>
+        <a className="side-text" href="#Resume"> Resume </a>
         </li>
     </ul>
 </aside>
