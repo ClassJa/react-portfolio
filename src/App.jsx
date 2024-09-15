@@ -5,13 +5,17 @@ import './components/NavList'
 // import { About, ContactMe, Navigation, NavList, Projects, ProjectsList } from './components'
 import Navigation from './components/Navigation'
 import NavList from './components/NavList'
+import Header from './Header'
 import './App.css'
 
 
 function App() {
 
   return (
-      <Navigation />
+  <>
+  <Header />
+  <Navigation />
+  </>
   )
 }
 
