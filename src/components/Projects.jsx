@@ -1,6 +1,26 @@
 function Project() {
     return (
-        <p> Including Project Information </p>
+       <section id="projectSection">
+        <div className="eachProject">
+    
+        </div>
+        <div className="eachProject">
+            
+        </div>
+        <div className="eachProject">
+        
+        </div>
+        <div className="eachProject">
+        
+        </div>
+        <div className="eachProject">
+        
+        </div>
+        <div className="eachProject">
+        
+        </div>
+       </section>
+        // <p> Including Project Information </p>
     )
 }
 

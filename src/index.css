@@ -8,8 +8,10 @@ aside {
   background-color: #6E7E85;
   /* background-color: #9bb0bf; */
   width: 18%;
+  border: #e4e4e4 3px solid;
   position: relative;
   top: auto;
+  border-radius: 8px;
 }
 
 header {
@@ -21,11 +23,9 @@ header {
   justify-content: center;
   font-size: 30px;
   height: 40px;
+  border: #e4e4e4 3px solid;
+  border-radius: 8px;
 }
-
-/* .testing {
-  background-color: red;
-} */
 
 ul {
   display: flex;
@@ -35,14 +35,9 @@ ul {
   height: 100vh;
 }
 
-
-
 .ul-no-bullet {
   list-style-type: none;
-
-  
 }
-
 
 .side-text {
   color: aliceblue;
@@ -54,12 +49,24 @@ ul {
 }
 
 .side-text:hover {
+  text-decoration: dotted #353535 5px;
+  text-decoration-line: underline;
+}
+
+.side-text:active {
   text-decoration: dotted #353535;
   text-decoration-line: underline;
 }
 
 .side-text:active {
   /* color:#353535 */
+}
+
+.eachProject {
+  height: 300px;
+  width: 450px;
+  background-color: #6E7E85;
+  margin: 10px;
 }
 
 .aboutDiv {
@@ -72,10 +79,27 @@ ul {
   /* border: #6E7E85 2px solid; */
 }
 
+.projSec {
+  display: grid;
+  width: 65%;
+}
+
 #aboutText {
   color: #807f8a;
   /* border: #70b4c1 2px solid; */
   padding: 10px;
   font-size: 25px;
 
+}
+
+#projectSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#mainSection {
+  width: auto;
+  /* width: 500px */
+  display: flex;
 }

@@ -1,13 +1,15 @@
 import { Outlet } from 'react-router-dom';
 import './index.css';
 
-import Header from "./Header";
+import MainTop from "./MainTop";
+import HeaderTop from './components/HeaderTop';
 
 
 function App() {
   return (
     <main>
-      <Header />
+      <HeaderTop />
+      <MainTop />
       <Outlet />
     
     </main>
