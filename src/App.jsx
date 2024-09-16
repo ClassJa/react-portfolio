@@ -7,12 +7,15 @@ import HeaderTop from './components/HeaderTop';
 
 function App() {
   return (
+    <div>
+    <HeaderTop />
     <main>
-      <HeaderTop />
       <MainTop />
       <Outlet />
     
     </main>
+    </div>
+
   )
 }
 

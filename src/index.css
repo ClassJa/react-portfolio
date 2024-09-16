@@ -5,26 +5,34 @@
 aside {
   display: flex;
   align-content: space-evenly;
-  background-color: #6E7E85;
+  /* background-color: #6E7E85; */
+  background-color: #002b55;
   /* background-color: #9bb0bf; */
-  width: 18%;
+  /* width: 18%; */
   border: #e4e4e4 3px solid;
   position: relative;
   top: auto;
-  border-radius: 8px;
+  border-radius: 100px;
+  /* border-radius: 8px; */
+  flex-basis: fit-content;
+  width: 100%;
+  min-width: 19%;
+  /* flex-basis: 23%; */
 }
 
 header {
-  background-color: #6E7E85;
+  /* background-color: #0d1215; */
+  /* background-color: #6E7E85; */
   /* background-color: #9bb0bf; */
   /* background-color: #F8F0FB; */
+  background-color: #002b55;
   color: aliceblue;
   display: flex;
   justify-content: center;
   font-size: 30px;
-  height: 40px;
+  height: 45px;
   border: #e4e4e4 3px solid;
-  border-radius: 8px;
+  border-radius: 22px;
 }
 
 ul {
@@ -63,10 +71,13 @@ ul {
 }
 
 .eachProject {
-  height: 300px;
-  width: 450px;
-  background-color: #6E7E85;
+  height: 400px;
+  width: 550px;
+  /* background-color: #6E7E85; */
+  /* background-color: #0b2350;   */
+  background-color: #3d2acc;
   margin: 10px;
+  border-radius: 40%;
 }
 
 .aboutDiv {
@@ -99,7 +110,12 @@ ul {
 }
 
 #mainSection {
-  width: auto;
+  /* width: auto; */
   /* width: 500px */
   display: flex;
+}
+
+main {
+  display: flex;
+
 }

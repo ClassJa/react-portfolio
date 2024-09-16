@@ -3,7 +3,6 @@ import Project from "./components/Projects"
 function MainTop() {
 
     return (
-    <div id="mainSection">
         <aside>
             <ul>
                 <li className='ul-no-bullet'>
@@ -20,10 +19,7 @@ function MainTop() {
                 </li>
             </ul>
             </aside>
-        <section className="projSec">
-            <Project />
-        </section>
-    </div>
+
     
 )}
 
