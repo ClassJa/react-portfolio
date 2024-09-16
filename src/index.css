@@ -6,7 +6,8 @@ aside {
   display: flex;
   align-content: space-evenly;
   /* background-color: #6E7E85; */
-  background-color: #002b55;
+  /* background-color: #002b55; recent */
+  background-color: #408375;
   /* background-color: #9bb0bf; */
   /* width: 18%; */
   border: #e4e4e4 3px solid;
@@ -25,7 +26,8 @@ header {
   /* background-color: #6E7E85; */
   /* background-color: #9bb0bf; */
   /* background-color: #F8F0FB; */
-  background-color: #002b55;
+  /* background-color: #002b55; */
+  background-color: #408375;
   color: aliceblue;
   display: flex;
   justify-content: center;
@@ -33,6 +35,19 @@ header {
   height: 45px;
   border: #e4e4e4 3px solid;
   border-radius: 22px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  width: 100px;
+  /* border-right: 10px; */
+  /* justify-content: space-around; */
+}
+
+footer + div {
+  border-right: 10px;
 }
 
 ul {
@@ -75,7 +90,9 @@ ul {
   width: 550px;
   /* background-color: #6E7E85; */
   /* background-color: #0b2350;   */
-  background-color: #3d2acc;
+  /* background-color: #3d2acc; */
+  background-color: #54535e;
+  /* background-color: #408375; */
   margin: 10px;
   border-radius: 40%;
 }

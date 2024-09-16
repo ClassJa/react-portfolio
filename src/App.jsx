@@ -3,6 +3,7 @@ import './index.css';
 
 import MainTop from "./MainTop";
 import HeaderTop from './components/HeaderTop';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
     <main>
       <MainTop />
       <Outlet />
-    
     </main>
+    <Footer />
     </div>
 
   )
