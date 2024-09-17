@@ -112,6 +112,11 @@ ul {
   width: 65%;
 }
 
+.homepage-section {
+  background-color: #353535;
+  color: #408375;
+}
+
 #aboutText {
   color: #807f8a;
   /* border: #70b4c1 2px solid; */

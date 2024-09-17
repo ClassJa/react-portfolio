@@ -1,6 +1,9 @@
 function Home() {
     return (
-        <p> Including Home page Information </p>
+        <div className="homepage-section">
+            <h2>Welcome</h2>
+        </div>
+        // <p> Including Home page Information </p>
     )
 }
 

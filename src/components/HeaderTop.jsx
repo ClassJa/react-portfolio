@@ -1,8 +1,8 @@
 function HeaderTop() {
     return ( 
-   <header>
-         Julia A's Portfolio 
-    </header>
+        <header>
+            Julia A's Portfolio 
+        </header>
     )
 }
 
