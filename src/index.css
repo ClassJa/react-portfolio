@@ -113,8 +113,28 @@ ul {
 }
 
 .homepage-section {
-  background-color: #353535;
   color: #408375;
+  display: flex;
+  position: absolute;
+  height: 200px;
+  width: 800px;
+  top: 200px;
+  left: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+
+
+}
+
+.img1 {
+  background-size: cover;
+  max-width: 100%;
+  max-height: max-content;
+  border-radius: 40%;
+  height: 400px;
+  width: 550px;
+  
 }
 
 #aboutText {
