@@ -6,13 +6,13 @@ function Contact() {
                 <div className="form-title"> Reach Out! </div>
                <br></br>
                 Name: 
-                <input></input>
+                <input type="name" required ></input>
                 <br></br>
                 Email: 
-                <input></input>
+                <input type="email" required ></input>
                 <br></br>
-                Message (optional): 
-                <input ></input>
+                Message: 
+                <input type="text"required ></input>
                 {/* <br></br> */}
                 <button className="form-sub-btn"> Submit </button>
             </div>
