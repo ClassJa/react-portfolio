@@ -2,7 +2,8 @@
 
 function About() {
     return (
-    // <div className="aboutDiv">
+    <div className="">
+        {/* aboutDiv */}
         <p className="aboutDiv" id="aboutText">
             I am an avid learner with interests in design, creation, and development. 
             <br></br>
@@ -12,7 +13,10 @@ function About() {
             <br></br>
             I plan to continue in my personal pursuits while integrating them with my personal values of authenticity and many more.
         </p>
-    // </div>
+        <img className="m-icon" src="Assets/port-icon.jpeg" />
+    </div>
     )
 }
 export default About
+
+

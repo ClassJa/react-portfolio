@@ -1,16 +1,13 @@
-* {
-  font-family: Verdana, sans-serif, Cambria
+/* * {
+  font-family: Verdana, sans-serif, 'Cambria';
 }
-
 
 aside {
   display: flex;
   align-content: space-evenly;
-  /* height: 100%; */
   background-color: #3C6E71;
   width: 18%;
   position: relative;
-  /* left: -10px; */
   top: auto;
 }
 
@@ -19,17 +16,20 @@ header {
   color: aliceblue;
   display: flex;
   justify-content: center;
-  /* width: auto; */
-  /* position: relative; */
-  /* top: 0px; */
   font-size: 25px;
+}
+
+.testing {
+  background-color: red;
 }
 
 ul {
   display: flex;
   flex-direction: column;
-  /* background-color: #3C6E71; */
+  height: 100vh;
+  justify-content: space-evenly;
 }
+
 
 
 .ul-no-bullet {
@@ -44,4 +44,4 @@ ul {
   align-items: center;
   font-size: 25px;
 }
-
+ */

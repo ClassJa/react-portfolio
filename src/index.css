@@ -2,6 +2,10 @@
   font-family: Verdana, sans-serif, 'Cambria';
 }
 
+main {
+  display: flex;
+}
+
 aside {
   display: flex;
   align-content: space-evenly;
@@ -107,6 +111,20 @@ ul {
   /* border: #6E7E85 2px solid; */
 }
 
+.icon-sizing {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 500px;
+  left: 230px;
+}
+
+.m-icon {
+  position: relative;
+  top: 500px;
+  left: 500px;
+}
+
 .projSec {
   display: grid;
   width: 65%;
@@ -166,7 +184,3 @@ ul {
   display: flex;
 }
 
-main {
-  display: flex;
-
-}
