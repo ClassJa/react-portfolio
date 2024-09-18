@@ -46,8 +46,7 @@ footer {
   flex-direction: row;
   height: 20px;
   width: 100px;
-  /* border-right: 10px; */
-  /* justify-content: space-around; */
+
 }
 
 footer + div {
@@ -75,6 +74,17 @@ ul {
   font-size: 25px;
 }
 
+.deploy-btn {
+  background-color: #ffffff;
+  color: #408375;
+  position: relative;
+  top: -100px;
+  left: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .side-text:hover {
   text-decoration: dotted #353535 5px;
   text-decoration-line: underline;
@@ -85,8 +95,12 @@ ul {
   text-decoration-line: underline;
 }
 
-.side-text:active {
-  /* color:#353535 */
+/* .side-text:active {
+  color:#353535
+} */
+
+.active:enabled {
+  background-color: #525050;
 }
 
 .eachProject {
@@ -99,6 +113,7 @@ ul {
   /* background-color: #408375; */
   margin: 10px;
   border-radius: 40%;
+  border: #000000 1px solid;
 }
 
 .aboutDiv {
@@ -194,6 +209,7 @@ ul {
   border-radius: 40%;
   height: 400px;
   width: 550px;
+  
   
 }
 

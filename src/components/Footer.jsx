@@ -1,8 +1,8 @@
 function Footer() {
     return ( 
    <footer>
-        <div> Github </div> 
-        <div> Resume </div> 
+        <button> Github </button> 
+        <button> Resume </button> 
     </footer>
     )
 }

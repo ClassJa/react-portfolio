@@ -6,16 +6,16 @@ function MainTop() {
         <aside>
             <ul>
                 <li className='ul-no-bullet'>
-                <a className="side-text" href="/about" > About Me </a>
+                <a className="side-text active" href="/about" > About Me </a>
                 </li>
                 <li className='ul-no-bullet'>
-                <a className="side-text" href="/projects"> Portfolio </a>
+                <a className="side-text active" href="/projects"> Portfolio </a>
                 </li>
                 <li className='ul-no-bullet'>
-                <a className="side-text" href="/contact"> Contact Me </a>
+                <a className="side-text active" href="/contact"> Contact Me </a>
                 </li>
                 <li className='ul-no-bullet'>
-                <a className="side-text" href="/resume"> Resume </a>
+                <a className="side-text active" href="/resume"> Resume </a>
                 </li>
             </ul>
             </aside>
