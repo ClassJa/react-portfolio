@@ -9,7 +9,7 @@ function MainTop() {
                 <a className="side-text" href="/about" > About Me </a>
                 </li>
                 <li className='ul-no-bullet'>
-                <a className="side-text" href="/projects"> Projects </a>
+                <a className="side-text" href="/projects"> Portfolio </a>
                 </li>
                 <li className='ul-no-bullet'>
                 <a className="side-text" href="/contact"> Contact Me </a>

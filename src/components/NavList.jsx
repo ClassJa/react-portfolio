@@ -14,7 +14,7 @@ const handleChange = (e) => {
         <a onClick={handleChange}> About Me </a>
         </li>
         <li className='ul-no-bullet'>
-        <a onClick={handleChange}> Projects </a>
+        <a onClick={handleChange}> Portfolio </a>
         </li>
         <li className='ul-no-bullet'>
         <a onClick={handleChange}> Contact Me </a>

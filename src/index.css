@@ -125,6 +125,48 @@ ul {
   left: 500px;
 }
 
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 400px;
+  border: #408375 2px solid;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.form-position {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 100px; 
+ 
+  /* border: #408375 2px solid; */
+}
+
+.form-title {
+  color: #353535;
+  position: relative;
+  left: 60px;
+  font-size: 28px;
+}
+
+.form-sub-btn {
+  background-color: #408375;
+  color: #fffdfd;
+  width: 100px;
+  border-radius: 5px;
+  position: relative;
+  left: 75px;
+}
+
 .projSec {
   display: grid;
   width: 65%;
