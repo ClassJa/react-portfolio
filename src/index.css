@@ -46,13 +46,14 @@ footer {
   flex-direction: row;
   height: 20px;
   width: 100px;
-  justify-content: center;
+ 
+  /* justify-content: center; */
 
 }
 
-footer + div {
+/* footer + div {
   border-right: 10px;
-}
+} */
 
 ul {
   display: flex;
@@ -73,6 +74,14 @@ ul {
   display: flex;
   align-items: center;
   font-size: 25px;
+}
+
+.links-footer {
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #408375;
+  height: 30px;
+  margin: 5px;
 }
 
 .deploy-btn {

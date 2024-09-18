@@ -1,8 +1,8 @@
 function Footer() {
     return ( 
    <footer>
-        <button> Github </button> 
-        <button> Resume </button> 
+        <button className="links-footer"> Github </button> 
+        <button className="links-footer"> Resume </button> 
     </footer>
     )
 }
