@@ -26,19 +26,23 @@ aside {
 }
 
 header {
-  /* background-color: #0d1215; */
-  /* background-color: #6E7E85; */
-  /* background-color: #9bb0bf; */
-  /* background-color: #F8F0FB; */
-  /* background-color: #002b55; */
   background-color: #408375;
   color: aliceblue;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: 30px;
   height: 45px;
   border: #e4e4e4 3px solid;
   border-radius: 22px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* width: 100%; */
+}
+
+.header-words {
+  /* width: 100%; */
+  /* display: inline; */
+  /* justify-self: center; */
 }
 
 footer {
@@ -46,9 +50,16 @@ footer {
   flex-direction: row;
   height: 20px;
   width: 100px;
+  /* display: flex;
+  justify-content: right; */
  
   /* justify-content: center; */
 
+}
+
+.form-title {
+  font-weight: bold;
+  color: #53ab98;
 }
 
 /* footer + div {
@@ -76,12 +87,48 @@ ul {
   font-size: 25px;
 }
 
+.nav-style {
+  width: auto;
+  height: 20px;
+  margin-right: 5px;
+  /* background-color: #ffffff; */
+  color: #fafafa;
+  position: relative;
+  right: 0%;
+  font-size: 20px;
+  border-color: #242424;
+  border: #242424 1px dotted;
+
+  /* justify-content: flex-end; */
+
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+
+
+  /* text-decoration: underline; */
+}
+
 .links-footer {
   border-radius: 8px;
-  background-color: #ffffff;
-  color: #408375;
+  background-color: #408375;
+  color: #ffffff;
   height: 30px;
   margin: 5px;
+  cursor: pointer;
+  border-color: #525050;
+  /* display: flex;
+  justify-items: right; */
+}
+
+.text-footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .deploy-btn {
@@ -237,6 +284,12 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+#position-links {
+  width: 100%;
+  display: flex;
+  justify-content: right;
 }
 
 #mainSection {
