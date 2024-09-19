@@ -2,7 +2,7 @@
 
 function About() {
     return (
-    <div className="">
+    <div className="resize">
         {/* aboutDiv */}
         <p className="aboutDiv" id="aboutText">
             I am an avid learner with interests in design, creation, and development. 

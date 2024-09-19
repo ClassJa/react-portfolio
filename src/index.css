@@ -315,20 +315,61 @@ ul {
 
 @media screen, (max-width: 768px) {
   aside {
-    width: 30%;
+    width: 100%;
   }
   .side-text {
     display: inline-block;
     word-break: break-all;
   }
-
   .header-section-text {
-    font-size: 20px;
+    display: inline-block;
+    /* width: 100%; */
+    width: 50%;
+    justify-content: flex-start;
+    margin-left: 20px;
+    align-self: center;
+    margin-right: 20px;
     
     /* width: 50%; */
   }
   .project-section {
     display: flex;
     flex-direction: column;
+  }
+
+  .nav-style {
+    display: inline;
+    word-wrap: break-word;
+    width: 100px;
+    justify-items: center;
+  }
+
+  .nav-links {
+    width: 50%;
+    justify-content: flex-end;
+    margin-left: 50px;
+  }
+
+  .aboutDiv {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 300px;
+    display: flex;
+    flex-direction: row;
+    /* max-width: fit-content;
+    max-height: 500px; */
+
+  }
+/* 
+  #aboutText {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    max-height: 300px;
+  } */
+
+  .resize {
+    width: 0px;
   }
 }
