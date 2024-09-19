@@ -319,6 +319,7 @@ ul {
   border-radius: 8px;
   cursor: pointer;
   font-size: large;
+  border-color: #408375;
 }
 
 .btn-resume-pos {
@@ -344,10 +345,14 @@ ul {
   }
 }
 
-@media screen, (max-width: 768px) {
+@media screen, (max-width: 568px) {
   aside {
     width: 100%;
   }
+  header {
+    /* width: 100%; */
+  }
+
   .side-text {
     display: inline-block;
     word-break: break-all;
