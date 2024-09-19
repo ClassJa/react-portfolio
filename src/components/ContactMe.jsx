@@ -4,6 +4,7 @@ function Contact() {
         <form className="form-position">
             <div className="form-section">
                 <div className="form-title"> Reach Out! </div>
+                <div className="email-contact">Jaua1150@gmail.com </div>
                <br></br>
                 Name: 
                 <input type="name" required ></input>

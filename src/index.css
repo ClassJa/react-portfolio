@@ -204,7 +204,8 @@ ul {
   left: 400px;
   border: #408375 2px solid;
   height: 500px;
-  width: 500px;
+  min-width: 350px;
+  /* width: 500px; */
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -223,8 +224,10 @@ ul {
 
 .form-title {
   color: #353535;
-  position: relative;
-  left: 60px;
+  display: flex;
+  justify-content: center;
+  /* position: relative;
+  left: 60px; */
   font-size: 28px;
 }
 
@@ -233,8 +236,11 @@ ul {
   color: #fffdfd;
   width: 100px;
   border-radius: 5px;
-  position: relative;
-  left: 75px;
+  /* display: flex; */
+  /* justify-items: center; */
+  position: relative; 
+  left: 35%;
+  margin-top: 15px;
 }
 
 .projSec {
@@ -301,6 +307,31 @@ ul {
   justify-content: right;
 }
 
+#resume-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-decoration: none; */
+  height: 100px;
+  width: 200px;
+  background-color: #ffffff;
+  color:#408375;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.btn-resume-pos {
+  display: flex;
+  justify-items: center;
+  align-self: center;
+  justify-content: center;
+  text-decoration: none;
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+}
+
 #mainSection {
   /* width: auto; */
   /* width: 500px */
@@ -323,14 +354,19 @@ ul {
   }
   .header-section-text {
     display: inline-block;
+    font-size: 30px;
     /* width: 100%; */
     width: 50%;
     justify-content: flex-start;
     margin-left: 20px;
     align-self: center;
-    margin-right: 20px;
     
     /* width: 50%; */
+  }
+
+  .email-contact{
+    display: flex;
+    justify-content: center;
   }
   .project-section {
     display: flex;
@@ -348,28 +384,5 @@ ul {
     width: 50%;
     justify-content: flex-end;
     margin-left: 50px;
-  }
-
-  .aboutDiv {
-    width: 100%;
-    position: relative;
-    top: 0px;
-    left: 300px;
-    display: flex;
-    flex-direction: row;
-    /* max-width: fit-content;
-    max-height: 500px; */
-
-  }
-/* 
-  #aboutText {
-    position: relative;
-    left: 0px;
-    width: 100%;
-    max-height: 300px;
-  } */
-
-  .resize {
-    width: 0px;
   }
 }
