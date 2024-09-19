@@ -2,7 +2,7 @@ function HeaderTop() {
     return ( 
         <div>
         <header className="header-words">
-            Julia A's Portfolio 
+            <div className="header-section-text"> Julia A's Portfolio </div>
         <section className="nav-links">
         <a className="anchor-decor" href="/about"> <div className="nav-style">About Me</div> </a>
         <a className="anchor-decor" href="/projects"> <div className="nav-style">Portfolio</div> </a>

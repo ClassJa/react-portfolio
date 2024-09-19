@@ -257,6 +257,10 @@ ul {
 
 }
 
+.header-section-text {
+  width: 280px;
+}
+
 .img1 {
   background-size: cover;
   max-width: 100%;
@@ -305,12 +309,26 @@ ul {
 
 @media screen, print {
   .header-words {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
-@media (max-width: 768px) {
-  .header-words {
+@media screen, (max-width: 768px) {
+  aside {
+    width: 30%;
+  }
+  .side-text {
+    display: inline-block;
+    word-break: break-all;
+  }
+
+  .header-section-text {
     font-size: 20px;
+    
+    /* width: 50%; */
+  }
+  .project-section {
+    display: flex;
+    flex-direction: column;
   }
 }
