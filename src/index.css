@@ -105,6 +105,10 @@ ul {
 
 }
 
+.anchor-decor {
+  text-decoration: none;
+}
+
 .nav-links {
   width: 100%;
   display: flex;
@@ -115,6 +119,7 @@ ul {
 
   /* text-decoration: underline; */
 }
+
 
 .links-footer {
   border-radius: 8px;
