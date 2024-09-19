@@ -286,6 +286,16 @@ ul {
 
 }
 
+.cont-side {
+  width: 100%;
+  left: -8%;
+  position: relative;
+  /* position: relative;
+  left: 10px; */
+  /* display: flex;
+  justify-content: flex-start; */
+}
+
 .projTitle {
   color: #408375;
   font-size: 30px;
@@ -347,7 +357,10 @@ ul {
 
 @media screen, (max-width: 568px) {
   aside {
-    width: 100%;
+    /* width: 100%; */
+    width: max-content;
+    min-width: 8%;
+    max-width: 20%;
   }
   header {
     /* width: 100%; */
@@ -356,6 +369,7 @@ ul {
   .side-text {
     display: inline-block;
     word-break: break-all;
+    margin: 20px;
   }
   .header-section-text {
     display: inline-block;
