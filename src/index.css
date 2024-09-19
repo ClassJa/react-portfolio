@@ -263,9 +263,9 @@ ul {
 
 }
 
-.header-section-text {
+/* .header-section-text {
   width: 280px;
-}
+} */
 
 .img1 {
   background-size: cover;
@@ -374,8 +374,8 @@ ul {
   .header-section-text {
     display: inline-block;
     font-size: 30px;
-    /* width: 100%; */
-    width: 50%;
+    width: 100%;
+    /* width: 50%; */
     justify-content: flex-start;
     margin-left: 20px;
     align-self: center;
