@@ -10,22 +10,16 @@ import ProjectsPage from './components/Projects.jsx'
 import ContactPage from './components/ContactMe.jsx'
 import ResumePage from './components/Resume.jsx'
 import ErrorPage from './components/Error.jsx'
-// how to import reactDOM 
 import {createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
-    // element: <HomePage />,
     element: <App />,
     // index: true,
     errorElement: <ErrorPage />,
     children: [
-      // {
-      //   path: '/',
-      //   element: <HomePage />
-      // }
       {
         path: '/about',
         element: <AboutPage />
