@@ -50,7 +50,6 @@ function Project() {
             </a>
         </div>
        </section>
-        // <p> Including Project Information </p>
     )
 }
 
